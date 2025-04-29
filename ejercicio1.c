@@ -10,4 +10,3 @@ int main( int argc, char const *argv[])
         printf("%d ", array_10[i]);
     }
     return 0;
-}
