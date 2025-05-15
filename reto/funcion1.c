@@ -4,7 +4,7 @@
 
 char* leerArchivo() {
     char nombre[100];
-    printf("Archivo a leer: ");
+    printf("reto.txt ");
     fgets(nombre, sizeof(nombre), stdin);
     nombre[strcspn(nombre, "\n")] = '\0';
 
