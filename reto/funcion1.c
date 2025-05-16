@@ -11,11 +11,11 @@ char* leerArchivo() {
     FILE *f = fopen("reto.txt", "r");
     if (!f) return NULL;
 
-    fseek(f, 0, SEEK_END);
-    long len = ftell(f);
+    fseek(f, 0, SEEK_END)
+    long len = ftell(f)
     rewind(f);
 
-    char *txt = malloc(len + 1);
+    char *txt = malloc(len + 1)
     fread(txt, 1, len, f);
     txt[len] = '\0';
     fclose(f);

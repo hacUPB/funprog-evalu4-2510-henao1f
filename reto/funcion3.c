@@ -1,7 +1,7 @@
 void contarVocales (const char *txt, *a, *e, *i, *o, *u)
 {
     *a = *e = *i = *o = *u = 0;
-    for(int j = 0; txt[j]; j++)
+    for(int j = 0; txt[j]; j++
     {
         char c = txt[j];
         if ( c =='a' || c =='A') (*a)++;
