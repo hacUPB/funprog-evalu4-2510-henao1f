@@ -1,4 +1,3 @@
-// 5. Guardar archivo
 void guardarArchivo(const char *nombre, const char *txt, int c, int p, int esp, int l, int a, int e, int i, int o, int u) {
     FILE *f = fopen(nombre, "w");
     if (!f) return;
