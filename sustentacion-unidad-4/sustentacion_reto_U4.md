@@ -5,25 +5,25 @@ El problema consistía en crear un programa en lenguaje C que leyera un archivo 
 2. ESTRATEGIA DE SOLUCION
 
 La estrategia de solucion se baso en estructurar el programa de una forma modular, dividiendolo en funciones especificas que cumplen tareas concretas y se comunican entre si desde la funcion principal (main), este flujo inicia con la funcion de
-´´
+´
 leerArchivo
-´´
+´
 que solicita al usuario el nombre del archivo y carga su contenido completo en memoria usando una memoria dinamica, luego, se llama a la funcion
-´´
+´
  estadisticas
-´´
+´
 para calcular el numero de caracteres (excluyendo saltos de linea), palabras, espacios y lineas presentes en el texto, luego la funcion
-´´
+´
 contarVocales
-´´
+´
 recorre el texto para poder contar cuantas veces aparece cada vocal, considerando mayusculas y minusculas, una vez hecho el analisis el programa solicita al usuario 2 palabras: la que desea reemplazar y la nueva. con esta informacion se utiliza la funcion
-´´
+´
 reemplazar
-´´
+´
 que genera una nueva version del texto con los cambios solicitados, por ultimo, todos los resultados, junto con el texto modificado, se guardan en un archivo llamado resultados.txt mediante la funcion
-´´
+´
 guardarArchivo
-´´
+´
 esta organizacion en modulos independientes permite mantener el codigo ordenado, facilita la depuracion y hace posible reutilizar funciones si se desea ampliar el programa en el futuro.
 
 3. TABLA DE VARIABLES
